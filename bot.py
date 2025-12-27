@@ -1,7 +1,7 @@
 import discord
 import responses
 
-TOKEN = "MTE0NzIzNDk3NDUzMDAxNTQxMg.GC5MlZ.wj-pcHdpf9FKxct0t5ce3qOb5g7QNkKX1iYJYU"
+TOKEN = "a token"
 intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
@@ -34,3 +34,4 @@ async def send_message(message, user_message, is_private):
 
 def run_discord_bot():
     client.run(TOKEN)
+
